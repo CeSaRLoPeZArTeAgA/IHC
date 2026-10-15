@@ -1,0 +1,106 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="LAB06 - TriageVoz Rural: constelación 3D interactiva con Three.js, D3.js y Gemini" />
+  <title>TriageVoz Rural 3D | LAB06</title>
+  <link rel="stylesheet" href="./css/styles.css" />
+</head>
+<body>
+  <main id="app">
+    <section class="topbar" aria-label="Controles principales">
+      <div class="brand">
+        <div class="brand-mark">TV</div>
+        <div>
+          <h1>TriageVoz Rural 3D</h1>
+          <p>LAB06 · Flujo interactivo de pre-triaje con LLM</p>
+        </div>
+      </div>
+
+      <div class="toolbar">
+        <label>
+          Categoría
+          <select id="category-filter">
+            <option value="all">Todas</option>
+          </select>
+        </label>
+
+        <button id="toggle-connections" type="button">Mostrar todas las conexiones</button>
+        <button id="reset-camera" type="button">Restablecer cámara</button>
+      </div>
+    </section>
+
+    <section id="canvas-container" aria-label="Constelación tridimensional"></section>
+
+    <aside class="left-panel glass">
+      <h2>Constelación del pre-triaje</h2>
+      <p>
+        Cada nodo representa una etapa, requerimiento o actor de TriageVoz Rural.
+        Acércate con zoom para revelar las conexiones funcionales.
+      </p>
+
+      <div class="stats">
+        <div><strong id="node-count">0</strong><span>Nodos</span></div>
+        <div><strong id="connection-count">0</strong><span>Conexiones</span></div>
+        <div><strong id="character-count">0</strong><span>Roles LLM</span></div>
+      </div>
+
+      <h3>Categorías</h3>
+      <div id="legend-items" class="legend"></div>
+
+      <div class="instructions">
+        <strong>Interacción</strong>
+        <span>Rotar: clic + arrastrar</span>
+        <span>Zoom: rueda del mouse</span>
+        <span>Paneo: clic derecho + arrastrar</span>
+        <span>Detalle/chat: clic sobre un nodo</span>
+      </div>
+
+      <div class="medical-note">
+        Prototipo académico de apoyo al pre-triaje. No sustituye el diagnóstico ni la evaluación de un profesional de salud.
+      </div>
+    </aside>
+
+    <div id="tooltip" class="tooltip" role="tooltip">
+      <strong id="tooltip-title"></strong>
+      <span class="tooltip-rf" id="tooltip-rf"></span>
+      <span><b>Categoría:</b> <span id="tooltip-category"></span></span>
+      <p id="tooltip-summary"></p>
+    </div>
+
+    <aside id="chat-panel" class="chat-panel glass" aria-label="Panel de detalle y chat">
+      <header class="chat-header">
+        <img id="chat-avatar" src="./assets/info.svg" alt="" />
+        <div class="chat-heading">
+          <h2 id="chat-name">Nodo</h2>
+          <p id="chat-subtitle"></p>
+        </div>
+        <button id="chat-close" class="icon-button" type="button" aria-label="Cerrar">×</button>
+      </header>
+
+      <div class="chat-options">
+        <label>
+          Temperature
+          <select id="temperature">
+            <option value="0">0.0</option>
+            <option value="0.5" selected>0.5</option>
+            <option value="1">1.0</option>
+            <option value="1.5">1.5</option>
+          </select>
+        </label>
+        <button id="clear-chat" type="button">Limpiar historial</button>
+      </div>
+
+      <div id="chat-messages" class="chat-messages" aria-live="polite"></div>
+
+      <form id="chat-form" class="chat-form">
+        <textarea id="chat-input" rows="3" placeholder="Escribe una pregunta para este rol..."></textarea>
+        <button id="chat-send" type="submit">Enviar a Gemini</button>
+      </form>
+    </aside>
+  </main>
+
+  <script type="module" src="./js/main.js"></script>
+</body>
+</html>

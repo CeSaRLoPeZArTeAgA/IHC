@@ -1,0 +1,19 @@
+{
+  "name": "triagevoz-rural-3d-lab06",
+  "version": "1.0.0",
+  "private": true,
+  "description": "CC451 LAB06 - TriageVoz Rural: Three.js, D3.js, WebGL y Gemini API",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "d3": "^7.9.0",
+    "three": "^0.180.0"
+  },
+  "devDependencies": {
+    "vite": "^7.1.0"
+  }
+}

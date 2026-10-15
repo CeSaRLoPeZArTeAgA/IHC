@@ -1,0 +1,176 @@
+Paso 1.1
+----------------------------------------------------------------------------
+
+Actúa como un antropólogo digital especializado en [dominio del tema]. 
+Identifica los actores principales, regulaciones clave, tensiones 
+culturales y tecnologías disruptivas actuales en [tema específico].
+Estructura tu respuesta en:
+1. Mapa de actores directos/indirectos
+2. Factores regulatorios y éticos
+3. Fricciones tecnológicas actuales
+4. Oportunidades de intervención digital
+
+-----------------------------------------------------------------------------
+
+Actúa como un antropólogo digital especializado en gobierno digital, servicios públicos y trámites administrativos en el contexto peruano y latinoamericano.
+
+Analiza el problema de ciudadanos que presentan solicitudes mal redactadas, incompletas o con documentación faltante al realizar trámites ante entidades públicas.
+
+El objetivo es diseñar una aplicación llamada “TrámiteFácil”, que utilice inteligencia artificial generativa para redactar solicitudes, revisar documentos y guiar al usuario paso a paso durante un trámite administrativo.
+
+Identifica los actores principales, regulaciones clave, tensiones sociales y culturales, barreras de acceso y tecnologías digitales actuales relacionadas con este problema.
+
+Estructura tu respuesta en:
+
+1. Mapa de actores directos e indirectos
+   - Identifica stakeholders primarios, secundarios e invisibilizados.
+   - Explica brevemente el rol, necesidades e intereses de cada actor.
+   - Considera ciudadanos, servidores públicos, municipalidades, ministerios, organismos reguladores, proveedores tecnológicos y personas con baja alfabetización digital o discapacidad.
+
+2. Factores regulatorios y éticos
+   - Identifica normas peruanas relacionadas con procedimientos administrativos, gobierno digital, protección de datos personales e inteligencia artificial.
+   - Analiza riesgos relacionados con privacidad, uso de documentos personales, errores de IA, alucinaciones, transparencia y responsabilidad.
+   - Distingue claramente entre información oficial proporcionada por una entidad pública y contenido generado por IA.
+
+3. Fricciones tecnológicas y cognitivas actuales
+   - Identifica dificultades como formularios complejos, lenguaje administrativo, requisitos dispersos, documentos incompletos, baja conectividad, uso de celulares de gama baja y dificultades de accesibilidad.
+   - Considera aspectos cognitivos de Interacción Humano-Computadora: atención, percepción, memoria, carga cognitiva, reconocimiento frente a recuerdo y modelos mentales.
+   - Explica cómo estas dificultades afectan al ciudadano durante la realización de un trámite.
+
+4. Oportunidades de intervención digital
+   - Propón oportunidades concretas en las que una aplicación con IA generativa pueda ayudar.
+   - Considera funciones como:
+     * búsqueda guiada de trámites,
+     * explicación de requisitos en lenguaje sencillo,
+     * generación asistida de solicitudes,
+     * revisión de documentos,
+     * detección de posibles requisitos faltantes,
+     * guía paso a paso,
+     * lectura por voz,
+     * guardado de progreso,
+     * presentación de fuentes oficiales.
+   - Para cada oportunidad, indica qué problema resuelve y qué riesgo debería controlarse.
+
+Restricciones:
+- Enfócate principalmente en el contexto peruano y urbano.
+- No inventes normas, procedimientos administrativos ni requisitos.
+- Cuando menciones regulación o información oficial, identifica la fuente que debería verificarse.
+- No asumas que la IA puede aprobar, validar legalmente o aceptar un trámite.
+- Considera que la decisión final siempre corresponde a la entidad pública.
+- Incluye usuarios con baja alfabetización digital, discapacidad o conectividad limitada.
+- Evita estereotipos por edad, género o condición socioeconómica.
+- Diferencia claramente entre hechos, riesgos, hipótesis y oportunidades de diseño.
+
+Finaliza con una tabla resumen:
+
+| Problema detectado | Actor afectado | Causa | Oportunidad de diseño | Riesgo asociado |
+
+-----------------------------------------------------------------------------------------------------
+
+Paso 1.2: Matriz de Poder-Influencia
+
+---------------------------------------------------------------------------------
+
+Dada la siguiente lista de stakeholders:
+
+Stakeholders primarios
+
+Ciudadano solicitante
+Ciudadano con poca experiencia digital
+Persona con discapacidad
+Usuario con conectividad limitada
+Servidor de mesa de partes
+Servidor o especialista evaluador
+
+Stakeholders secundarios
+
+Municipalidades
+Ministerios y organismos públicos
+PCM / Secretaría de Gobierno y Transformación Digital
+Autoridad Nacional de Protección de Datos Personales
+CONADIS
+Proveedores de IA
+Proveedores cloud
+Proveedores OCR / Document AI
+Equipos UX/UI y desarrollo
+
+Stakeholders invisibilizados
+
+Personas con dificultades de lectura o comprensión
+Personas con discapacidad visual, auditiva, motora o cognitiva
+Personas cuyo idioma principal no sea el español
+Ciudadanos que solo cuentan con un teléfono
+Usuarios que realizan el trámite en situaciones de estrés
+Personas que atienden otras tareas mientras completan el procedimiento
+Ciudadanos que no comprenden la terminología administrativa
+Personas con conexiones inestables o planes de datos limitados
+
+Genera 3 escenarios de conflicto de intereses realistas que podrían surgir durante el desarrollo de la app TrámiteFácil.
+
+Para cada escenario, propón mecanismos de mediación tecnológica.
+
+-------------------------------------------------------------------------
+
+Dada la siguiente lista de stakeholders:
+
+Stakeholders primarios
+
+Ciudadano solicitante
+Ciudadano con poca experiencia digital
+Persona con discapacidad
+Usuario con conectividad limitada
+Servidor de mesa de partes
+Servidor o especialista evaluador
+
+Stakeholders secundarios
+
+Municipalidades
+Ministerios y organismos públicos
+PCM / Secretaría de Gobierno y Transformación Digital
+Autoridad Nacional de Protección de Datos Personales
+CONADIS
+Proveedores de IA
+Proveedores cloud
+Proveedores OCR / Document AI
+Equipos UX/UI y desarrollo
+
+Stakeholders invisibilizados
+
+Personas con dificultades de lectura o comprensión
+Personas con discapacidad visual, auditiva, motora o cognitiva
+Personas cuyo idioma principal no sea el español
+Ciudadanos que solo cuentan con un teléfono
+Usuarios que realizan el trámite en situaciones de estrés
+Personas que atienden otras tareas mientras completan el procedimiento
+Ciudadanos que no comprenden la terminología administrativa
+Personas con conexiones inestables o planes de datos limitados
+
+Genera exactamente tres escenarios de conflicto de intereses.
+
+Para cada escenario:
+    * Identifica los stakeholders involucrados.
+    * Describe el contexto en el que surge el conflicto.
+    * Explica claramente qué interés, necesidad o responsabilidad de un stakeholder entra en conflicto con el de otro.
+    * Identifica las consecuencias potenciales para:
+        - el ciudadano;
+        - la entidad pública;
+        - la experiencia de usuario;
+        - la privacidad, seguridad o accesibilidad;
+        - la confiabilidad de la IA.
+    
+    * Propón uno o más mecanismos de mediación tecnológica que permitan reducir o resolver el conflicto.
+    * Explica cómo el mecanismo propuesto equilibra los intereses de los stakeholders involucrados.
+    * Identifica cualquier riesgo residual que continúe existiendo aun después de aplicar la mediación.
+
+
+Restricciones
+    * Los escenarios deben ser plausibles en el contexto peruano y urbano.
+    * No inventes normas, procedimientos administrativos ni competencias institucionales.
+    * No asumas que \textit{TrámiteFácil} puede aprobar, rechazar o validar legalmente un trámite.
+    * La decisión administrativa final corresponde siempre a la entidad pública competente.
+    * Considera especialmente conflictos relacionados con privacidad, automatización, accesibilidad, calidad de los documentos, alucinaciones de IA, conectividad y carga cognitiva.
+    * Evita estereotipos asociados con edad, género, discapacidad o condición socioeconómica.
+    * Diferencia claramente entre un conflicto técnico, un conflicto organizacional y un conflicto ético.
+    * Las propuestas de mediación deben ser realizables mediante decisiones de diseño, arquitectura tecnológica o políticas de interacción.
+
+
