@@ -1,0 +1,11 @@
+# 1. Instalar
+pip install -r requirements.txt
+
+# 2. Configurar API Key de Groq en .streamlit/secrets.toml:
+# GROQ_API_KEY = "gsk_..."
+
+# 3. Ejecutar handout (plantilla con huecos)
+streamlit run smartpizza_handout.py
+
+# 4. Ejecutar solución completa (referencia)
+streamlit run smartpizza_solution.py

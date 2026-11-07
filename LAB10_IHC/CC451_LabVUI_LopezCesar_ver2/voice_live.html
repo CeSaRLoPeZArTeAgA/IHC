@@ -1,0 +1,23 @@
+<section class="live-vui" aria-label="Conversación continua con Pepper">
+  <div class="live-header">
+    <div><strong>🎧 Conversación con Pepper</strong><span class="small"> Manos libres por turnos</span></div>
+    <span id="voice-status" role="status" aria-live="polite">● En espera</span>
+  </div>
+  <div class="voice-actions">
+    <button id="voice-start" type="button" class="primary">🎙️ Iniciar conversación</button>
+    <button id="voice-stop" type="button" disabled>⏹️ Detener</button>
+    <button id="voice-interrupt" type="button" disabled>✋ Interrumpir a Pepper</button>
+    <button id="voice-repeat" type="button">🔊 Repetir respuesta</button>
+  </div>
+  <div class="live-grid">
+    <div class="live-panel">
+      <span class="speaker">Tú estás diciendo</span>
+      <p id="voice-preview" aria-live="polite">Aquí aparecerán tus palabras mientras hablas.</p>
+    </div>
+    <div class="live-panel">
+      <span class="speaker">Pepper dice</span>
+      <p id="voice-pepper" aria-live="polite">Pepper te dará la bienvenida al iniciar.</p>
+    </div>
+  </div>
+  <p id="voice-help" class="help">Pulsa «Iniciar conversación» una vez, autoriza el micrófono y habla normalmente.</p>
+</section>

@@ -1,0 +1,32 @@
+CAPTURAS EXIGIDAS POR EL LABORATORIO 10
+
+Este entorno de prueba no permite crear capturas de un navegador local.
+Por ello, deben capturarse en tu computadora al ejecutar la aplicacion.
+
+1) 01_bienvenida_microfono.png
+   Abrir Streamlit por primera vez. Capturar las tres opciones principales
+   y el panel "Conversacion con Pepper". Capturar "Iniciar conversacion".
+
+2) 02_transcripcion_tamano.png
+   Activar la conversacion una sola vez; decir "Quiero una Pepperoni".
+   Capturar los subtitulos y la pregunta del tamano en "Pepper dice".
+
+3) 03_confirmacion_voz.png
+   Decir "Mediana" con el microfono escuchando automaticamente.
+   Capturar carrito, precio y el panel de voz "Pepper esta hablando".
+
+4) 04_pedido_confirmado.png
+   Escribir "Si", luego "Vivo en Av. Ejemplo 123".
+   Capturar la confirmacion final de pedido.
+
+5) 05_error_sushi.png
+   Escribir "Quiero sushi".
+   Capturar el rechazo amable y las alternativas del menu.
+
+6) 06_recompensa.png (opcional)
+   Completar un segundo pedido y capturar el beneficio del 20 %.
+
+Para tomar capturas en Windows: Win + Shift + S.
+Guardar archivos PNG en esta carpeta antes de entregar.
+
+IMPORTANTE: no mostrar secrets.toml ni la API key en las capturas.

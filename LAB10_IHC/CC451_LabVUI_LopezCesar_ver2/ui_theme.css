@@ -1,0 +1,25 @@
+/* Identidad visual propia para SmartPizza VUI. Estilos estáticos de confianza. */
+[data-testid="stAppViewContainer"]{
+  background:radial-gradient(circle at 10% 0%,#fff0e2 0,transparent 32%),
+             linear-gradient(180deg,#fffaf5 0%,#fff 44%,#fff8f3 100%);
+}
+[data-testid="stSidebar"]{background:#fff5ec;border-right:1px solid #f1d7c7;}
+[data-testid="stSidebar"] [data-testid="stMarkdownContainer"] p{line-height:1.45;}
+.block-container{max-width:1240px;padding-top:1.45rem;}
+.sp-hero{border-radius:20px;padding:26px 30px;background:linear-gradient(110deg,#b72f20 0%,#e85d29 62%,#f59c45 100%);color:white;box-shadow:0 9px 28px #b844241f;margin-bottom:16px;position:relative;overflow:hidden;}
+.sp-hero:after{content:'🍕';position:absolute;right:30px;top:-12px;font-size:112px;opacity:.22;transform:rotate(-14deg);pointer-events:none;}
+.sp-hero .sp-overline{font-weight:800;text-transform:uppercase;letter-spacing:.19em;font-size:.76rem;color:#ffe9cd;}
+.sp-hero h1{color:white;font-size:2.25rem;line-height:1.16;letter-spacing:-.035em;margin:7px 0 9px;}
+.sp-hero p{color:#fff8ed;margin:0;max-width:570px;font-size:1.01rem;}
+.sp-eyebrow{color:#aa4a2e;font-size:.78rem;font-weight:800;letter-spacing:.085em;text-transform:uppercase;margin:6px 0;}
+.sp-step{background:#fff1df;border:1px solid #f2cbac;border-radius:99px;padding:8px 14px;color:#7e381d;font-size:.86rem;font-weight:700;display:inline-block;margin-bottom:9px;}
+.sp-menu-card{border:1px solid #f2d5c2;border-radius:14px;background:#fffefc;padding:10px 12px;min-height:100px;margin-bottom:8px;}
+.sp-menu-card .sp-food{font-size:1.6rem;line-height:1.4;}
+.sp-menu-card .sp-name{font-weight:760;color:#402519;font-size:.91rem;}
+.sp-menu-card .sp-price{color:#b53e1c;font-weight:780;}
+.sp-cart-empty{border:1px dashed #e8b494;border-radius:13px;background:#fff8f2;padding:18px;color:#8d6551;text-align:center;margin-bottom:10px;}
+.sp-menu-note{font-size:.8rem;color:#855a45;}
+[data-testid="stChatMessage"]{border:1px solid #eedfd2;border-radius:13px;background:#fffefd;}
+[data-testid="stButton"] button[kind="primary"]{background:#d94e24;border-color:#d94e24;}
+[data-testid="stButton"] button{border-radius:10px;}
+@media(max-width:650px){.sp-hero{padding:22px 20px}.sp-hero h1{font-size:1.75rem}.sp-hero:after{font-size:75px;right:8px;top:3px}}
