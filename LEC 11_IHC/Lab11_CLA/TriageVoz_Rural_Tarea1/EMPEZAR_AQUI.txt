@@ -1,0 +1,16 @@
+TRIAGEVOZ RURAL - LEC-LAB 11 - TAREA 1 
+
+1. Extrae el ZIP en una carpeta NUEVA llamada TriageVoz_Rural_Mejorado.
+2. Abrela en VSCode.
+3. configura GROQ_API_KEY y/o GEMINI_API_KEY.
+4. Haz doble clic en INICIAR_TRIAGEVOZ.bat (instala e inicia).
+5. Abre la direccion que aparece en consola, normalmente http://127.0.0.1:8011
+6. Comprueba la version visible LEC11-T1-2026.11.10.
+
+CON GROQ_API_KEY: entrada de voz Whisper y consultas Groq.
+CON GEMINI_API_KEY: consultas y dialogos con Gemini.
+CON AMBAS: compara modelos con exactamente un caso inventado.
+SIN CLAVES: intents por texto, prompts y 3 dialogos precargados.
+
+No uses datos de pacientes reales: es una demostracion academica.
+No abra 127.0.0.1:8000, que puede corresponder a la version antigua.

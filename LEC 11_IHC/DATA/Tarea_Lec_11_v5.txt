@@ -1,0 +1,71 @@
+Tarea Lec-LAB 11:
+Justifique los principios que sugiere el framework :
+THE WHARTON BLUEPRINT FOR EFFECTIVE AI CHATBOTS
+que se deben aplicar en cada caso y como deben implementarse.
+
+Suponga Implementará una interfase de voz para su proyecto de curso. 
+Responda y desarrolle las siguientes tareas:
+================================================
+TAREA 01:
+Crear, mediante el uso de una IA generativa, un ejemplo de dialogo de  4 o 5
+frases que podra utilizar con el asistente en su proyecto: TriageVoz Rural: pre-triaje en telemedicina.
+
+Para ello, programe los prompts necesarios para la IA generativa 
+para que responda con diferentes personalidades
+
+-  Amabilidad  (0=seco, 10=muy cálido): {amabilidad}
+-  Formalidad  (0=coloquial/jerga, 10=ultraformal): {formalidad}
+-  Humor  (0=serio, 10=chistoso/irónico): {humor}
+-  Entusiasmo  (0=monótono/pesimista, 10=enérgico/optimista): {entusiasmo}
+-  Empatía  (0=indiferente, 10=muy comprensivo): {empatía}
+-  Paciencia  (0=impaciente, 10=muy paciente): {paciencia}
+
+Deberia crear el prompt para poder graduar cada componente de los 
+razgos de personalidad del asistente y generar el dialogo correspondiente.
+
+Provea 3 ejemplos del "mismo" dialogo  y el prompt utilizado, para que el 
+asistente tenga 3 diferentes personalidades.
+
+Escoja el mejor prompt para generar la personalidad mas definida.
+===================================================
+
+TAREA 02
+Haga que el asistente de voz CAMBIE SU PERSONALIDAD SEGUN LAS RESPUESTAS
+del usuario, para adaptarse a su modo de expresarse y/o a la situacion que 
+el  usuario experimenta.
+
+Los principios de VUI a utilizar son:
+
+1. Reconocer la intención
+2. Aprovechar el contexto
+3. Cooperar y responder
+4. Divulgación Progresiva
+5. Variedad
+6. Tomar turnos
+
+
+================
+Escenario :
+1 .El usuario quiere saber que cursos estudiar para aprender una habilidad.
+P. Ejemplo Programacion en Backend; o Programacion de Front End. de manera 
+amena y ludica.
+
+2. El usuario quiere saber en que cursos puede matricularse
+en el siguiente periodo y esta apremiado por el tiempo para alcanzar cupo.
+Para matricularse Necesita haber aprobado los prerequisitos necesarios 
+y alcanzar el cupo necesario.
+
+3. El usuario necesita asistencia medica: 
+-En una cita de rutina 
+-En una  llamada de emergencia. 
+=================
+
+Explique las personalidades resultantes (Como llego a ellas?) 
+y los principios de VUI utilizados en cada caso 
+
+Suba el resultado al final de la clase como un archivo:  
+tarea-personalidades-<apellido>.doc 
+
+
+
+

@@ -1,0 +1,13 @@
+LEC-LAB 11 · TRIAGEVOZ RURAL
+
+ARCHIVOS:
+1. Informe_Laboratorio11_Tarea1_TriageVoz_Lopez.docx  (5 páginas)
+2. Informe_Laboratorio11_Tarea2_TriageVoz_Lopez.docx  (5 páginas)
+3. TriageVoz_Rural_Tarea2_Completo.zip  (aplicación independiente R5)
+4. Evidencias_LEC11_Tareas1y2.zip  (capturas con datos ficticios)
+
+Prueba por texto: ejecuta start.py y abre http://127.0.0.1:8022 (o puerto impreso).
+Para audio necesitas API key Groq y permiso del micrófono. No uses datos clínicos reales.
+
+Las capturas documentales usan el frontend y el motor real con transporte HTTP/WebSocket simulado;
+no prueban micrófono real ni ejecución remota de Groq/Gemini.
